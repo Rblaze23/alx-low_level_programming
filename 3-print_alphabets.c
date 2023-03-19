@@ -6,7 +6,7 @@ int main(void)
   for(n="a";a<="z";a++){
   putchar(n);
   }
-    for(n="A";a<="Z";a++){
+    for(n="A";n<="Z";n++){
   putchar(n);
   }
   putchar("\n");
