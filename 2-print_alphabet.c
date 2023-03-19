@@ -3,7 +3,7 @@
 int main(void)
 {
 	char n;
-  for(n="a";a<="z";a++){
+  for(n="a";n<="z";n++){
   putchar(n);
   }
   putchar("\n");
