@@ -1,14 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h>
+
 int main(void)
 {
-	char n='a';
-  for(n="a";n<="z";n++){
-  
-    if(n=="e" or n=="q")
-      continue;
-    putchar(n);
+  char c;
+
+  for (c = 'a'; c <= 'z'; c++)
+  {
+    if (c != 'e' && c != 'q')
+    {
+      putchar(c);
+    }
   }
-  putchar("\n");
-	return (0);
+
+  putchar('\n');
+
+  return 0;
 }
