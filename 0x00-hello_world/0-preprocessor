@@ -1,0 +1,4 @@
+#!/bin/bash
+CFILE=$CFILE
+cpp -o c $CFILE
+cat c
