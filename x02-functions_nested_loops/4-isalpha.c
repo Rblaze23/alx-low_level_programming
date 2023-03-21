@@ -9,5 +9,5 @@ int _isalpha(int c){
     return 0;
 }
 int main(){
-  _isalpha(5);
+  _isalpha();
   return 0;}
